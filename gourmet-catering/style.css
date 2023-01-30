@@ -1,0 +1,276 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .logo
+{
+    width: 18%;
+}
+.nav .logo h2
+{
+    color: rgba(0, 0, 0, 0.618);
+    font-size: 18px;
+    letter-spacing: 4;
+}
+h2:hover
+{
+    background-color: #ccc;
+    width: 72.6%;
+}
+.nav ul
+{
+    width: 70%;
+    text-align: end;
+}
+.nav ul li
+{
+    display: inline-block;
+    text-align:end;
+    padding: 20px;
+
+}
+.nav ul li a
+{
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+}
+li a:hover
+{
+    background-color: #ccc;
+    width: 100%;
+}
+/* banner */
+.banner
+{
+    width: 100%;
+    position: relative;
+}
+.banner img
+{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1
+{
+    position: absolute;
+    bottom: 30px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    color: rgb(156, 148, 148);
+}
+
+/* about */
+.contianer
+{   
+
+    width: 89%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 66px auto;   
+}
+.contianer .left-content
+{
+    flex: 0 0 50%; 
+}
+/* right content */
+.right content
+{   
+    flex: 0 0 50%;
+}
+.heading-top-right h1
+{
+    text-align: center;
+    color: rgb(91, 89, 89);
+    padding-top: 65px;
+    text-transform: capitalize;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+.heading-right
+{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+.paraghap-right
+{
+    padding-top: 50px;
+    float: left;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.paraghapoff-top
+{
+    margin-bottom: 50px;
+    /* padding: 40px; */
+}
+.paraghap-right p
+{
+    justify-content: space-around;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+ hr
+ {
+     border: 1px dotted #ccc;
+     width: 80%;
+     margin: auto;
+ }
+/* our main  */
+
+.our-main
+{   
+
+    width: 89%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 66px auto;   
+    align-items: center;
+}
+.our-main .left-menu
+{
+    flex: 0 0 49%;
+}
+
+.our-main .left-menu .headings h2
+{
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+}
+.right-main
+{
+    flex: 0 0 47%;
+}
+.gaping
+{
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.5px;
+    font-family: "playfair display";
+    letter-spacing: 5px;
+    font-size: 36px;
+
+}
+.gap-line
+{
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    font-family: "serf";
+    font-weight: 400;
+    font-size: 15px;
+}
+.gap
+{
+    margin-bottom: 60px;
+    color: #757575!important;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+/* Hr */
+.hr
+ {
+     border: 1px dotted #ccc;
+     width: 80%;
+     margin: 70px 70px;
+ }
+/* main slider-text */
+ .main-slider-text
+ {
+     width: 100%;
+     background-color: rgba(204 204 204 / 49%);
+ }
+.slider-test 
+{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+/* section contact */
+.contact
+{   
+    width: 89%;
+    margin: auto;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+
+.contact h1
+{
+    font-family: "playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 36px;
+}
+.contact p
+{
+    padding-bottom: 30px;
+
+}
+.contact .textlarge
+{
+    color:  #607d8b!important;
+}
+.contact .form
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.contact .form input
+{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.contact .form .btn
+{
+    border: none;
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.contact .form .btn:hover
+{
+    background-color: #ccc;
+}
+
+/* footer  */
+.footer
+{
+    background-color: #ccc;
+    width: 100%;
+    height: 10vh;
+}
+.footer .footer-paragh
+{
+    padding-top: 25px;
+    text-align: center;
+}
